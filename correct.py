@@ -12,4 +12,8 @@ else:
 
 emission_value = round(calculate_value * (0.89809 / a))
 
-print(f'最大发射峰位置：{emission_value}nm')
+print(f'最大发射峰位置:{emission_value}nm')
+
+print('最big发射峰位置:{}nm'.format(emission_value))
+
+
